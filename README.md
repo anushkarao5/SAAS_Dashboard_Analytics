@@ -1,64 +1,66 @@
-# SAAS_Dashboard_Analytics
+# SaaS Dashboard Analytics
 
-This dashboard provides a comprehensive view of SaaS revenue, customer growth, acquisition costs, and plan performance, highlighting monthly trends in revenue, signups, active customers, customer mix, and revenue per customer across plans. All code to extract data for graph production is the saas_dashboard_chart_data.sql file.
+This dashboard provides a comprehensive view of SaaS revenue, customer growth, acquisition costs, and plan performance, highlighting monthly trends in revenue, signups, active customers, customer mix, and revenue per customer across plans. All SQL used to extract the data for the visualizations is available in `saas_dashboard_chart_data.sql`.
 
 [Click here for source data](https://www.kaggle.com/datasets/halaturkialotaibi/saas-business-metrics-customers-plans-and-revenue/data)
 
-<img width="2836" height="1492" alt="image" src="https://github.com/user-attachments/assets/026b2218-d8ce-4b92-a758-1c73dab99230" />
+<img width="2836" height="1492" alt="SaaS Analytics Dashboard" src="https://github.com/user-attachments/assets/026b2218-d8ce-4b92-a758-1c73dab99230" />
 
+## Dashboard Insights
 
-### Graph 1: Monthly Revenue vs. Acquisition Cost
+### 1. Monthly Revenue vs. Acquisition Cost
 
-<img width="1400" height="497" alt="image" src="https://github.com/user-attachments/assets/5b49d47e-4938-476f-9802-2072a6b38a53" />
+<img width="1400" height="497" alt="Monthly Revenue vs. Acquisition Cost" src="https://github.com/user-attachments/assets/5b49d47e-4938-476f-9802-2072a6b38a53" />
 
-Revenue increases steadily from Jan 2024 to Mar 2025, afterwhich is quickly declines.
+Revenue increases steadily from January 2024 through March 2025, followed by a sharp decline.
 
-### Graph 2: Total Revenue By Plan 
-<img width="428" height="465" alt="image" src="https://github.com/user-attachments/assets/521556c0-be72-4de3-ab6e-41fa3f93f95c" />
+### 2. Total Revenue by Plan
 
-Enterprise generates the most revenue. 
+<img width="428" height="465" alt="Total Revenue by Plan" src="https://github.com/user-attachments/assets/521556c0-be72-4de3-ab6e-41fa3f93f95c" />
 
-### Graph 3: Customer Mix By Plan
+Enterprise customers generate the largest share of total revenue.
 
-<img width="428" height="465" alt="image" src="https://github.com/user-attachments/assets/7815acd2-6564-4ea8-a41b-c98928397e97" />
+### 3. Customer Mix by Plan
 
-While enterprise generates the most revenue, customer mix fairly similar across all groups. 
+<img width="428" height="465" alt="Customer Mix by Plan" src="https://github.com/user-attachments/assets/7815acd2-6564-4ea8-a41b-c98928397e97" />
 
+Customer distribution is relatively similar across plans, despite differences in revenue contribution.
 
-### Graph 4: Revenue per Month By Plan
+### 4. Monthly Revenue by Plan
 
-<img width="871" height="465" alt="image" src="https://github.com/user-attachments/assets/345ddbd5-ca78-4949-ab63-d7ea1dcc965c" />
+<img width="871" height="465" alt="Monthly Revenue by Plan" src="https://github.com/user-attachments/assets/345ddbd5-ca78-4949-ab63-d7ea1dcc965c" />
 
-Total revenue trends influenced most by changes in enterprise revenue. 
+Changes in total monthly revenue are driven primarily by changes in Enterprise revenue.
 
+### 5. Monthly Signups by Plan
 
-### Graph 5: Monthly Signups Per Plan 
-<img width="575" height="481" alt="image" src="https://github.com/user-attachments/assets/774e1baa-afd9-41f9-b133-b0c5e12611bd" />
+<img width="575" height="481" alt="Monthly Signups by Plan" src="https://github.com/user-attachments/assets/7741baa-afd9-41f9-b133-b0c5e12611bd" />
 
-Monthly signups do not change signficantly over time. 
+Monthly signup volumes remain relatively stable over the period analyzed.
 
-### Graph 6: Revenue per customer (by plan) 
-<img width="575" height="489" alt="image" src="https://github.com/user-attachments/assets/fd62de5f-6211-40dd-8659-13ca26c456be" />
+### 6. Revenue per Customer by Plan
 
-Enterprise has the largest revenue per customer. 
+<img width="575" height="489" alt="Revenue per Customer by Plan" src="https://github.com/user-attachments/assets/fd62de5f-6211-40dd-8659-13ca26c456be" />
 
+Enterprise customers generate the highest revenue per customer.
 
-### Graph 7: Total Active Customers Per Month
+### 7. Total Active Customers per Month
 
-<img width="575" height="489" alt="image" src="https://github.com/user-attachments/assets/d7ce498b-74a5-4b12-bbc6-dff08f40561a" />
+<img width="575" height="489" alt="Total Active Customers per Month" src="https://github.com/user-attachments/assets/d7ce498b-74a5-4b12-bbc6-dff08f40561a" />
 
-Total active customers begins to dip around Feb-Mar 2025, potentially resulting in lower revenue. 
+The number of active customers begins to decline around February–March 2025, coinciding with the decline in revenue.
 
+## Key Findings
 
-# Key Findings 
-- Enterprise customers represented roughly one-third of the customer base but generated 67% of revenue, highlighting differences in customer value across plans.
-- There is a sharp decline in revenue after March 2025, which coincided with a significant drop in active customers.
+- **Enterprise customers represent roughly one-third of the customer base but contribute approximately 67% of total revenue**, indicating substantially higher revenue per customer compared with other plans.
+- **Revenue declines sharply after March 2025**, occurring alongside a decline in active customers.
+- **Signup volumes remain relatively stable**, suggesting that the decline in revenue is not accompanied by a comparable decline in new customer acquisition.
+- **Enterprise revenue has the greatest influence on overall revenue trends**, making Enterprise customer activity an important driver of total revenue performance.
 
+## Data & Code
 
+The analysis was built using SQL to extract the data required for each visualization. The queries used to produce the dashboard data are available in:
 
+`saas_dashboard_chart_data.sql`
 
-
-
-
-
-
+[Source dataset](https://www.kaggle.com/datasets/halaturkialotaibi/saas-business-metrics-customers-plans-and-revenue/data)
