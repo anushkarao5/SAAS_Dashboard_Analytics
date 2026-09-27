@@ -52,10 +52,10 @@ The number of active customers begins to decline around February–March 2025, c
 
 ## Key Findings
 
-- **Enterprise customers represent roughly one-third of the customer base but contribute approximately 67% of total revenue**, indicating substantially higher revenue per customer compared with other plans.
-- **Revenue declines sharply after March 2025**, occurring alongside a decline in active customers.
-- **Signup volumes remain relatively stable**, suggesting that the decline in revenue is not accompanied by a comparable decline in new customer acquisition.
-- **Enterprise revenue has the greatest influence on overall revenue trends**, making Enterprise customer activity an important driver of total revenue performance.
+- Enterprise customers represent roughly one-third of the customer base but contribute approximately 67% of total revenue, indicating substantially higher revenue per customer compared with other plans.
+- Revenue declines sharply after March 2025, occurring alongside a decline in active customers.
+- Signup volumes remain relatively stable, suggesting that the decline in revenue is not accompanied by a comparable decline in new customer acquisition.
+- Enterprise revenue has the greatest influence on overall revenue trends, making Enterprise customer activity an important driver of total revenue performance.
 
 ## Data & Code
 
