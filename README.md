@@ -34,7 +34,7 @@ Changes in total monthly revenue are driven primarily by changes in Enterprise r
 
 ### 5. Monthly Signups by Plan
 
-<img width="575" height="481" alt="Monthly Signups by Plan" src="https://github.com/user-attachments/assets/7741baa-afd9-41f9-b133-b0c5e12611bd" />
+<img width="575" height="481" alt="image" src="https://github.com/user-attachments/assets/74a76214-0c2f-4a43-a421-6486c7f06985" />
 
 Monthly signup volumes remain relatively stable over the period analyzed.
 
